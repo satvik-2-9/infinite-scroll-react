@@ -1,5 +1,8 @@
+
 .App {
   text-align: center;
+  font-family:monospace;
+  color: whitesmoke;
 }
 
 .App-logo {
@@ -35,4 +38,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1{
+  font-family:monospace;
+  color: wheat;
+}
+li{
+  padding:2px;
 }
