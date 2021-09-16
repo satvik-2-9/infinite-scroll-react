@@ -37,6 +37,7 @@ function App() {
   return (
     <div className="App">
       <h1> Infinite Scroll Assignment</h1>
+      <h3> - using the open library API</h3>
       <input type="text" value={query}  onChange={handleChange}></input>
       <ul>
       {books.map((book, index) => {
