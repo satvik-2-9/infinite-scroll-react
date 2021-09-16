@@ -47,7 +47,7 @@ export default function Search(query,pagenum) {
         let cancel
         axios({
             method: 'GET',
-            url: 'http://openlibrary.org/search.json',
+            url: 'https://openlibrary.org/search.json',
             /* specific to the api we are using */
             params: { q: query, page: pagenum },
             cancelToken: new axios.CancelToken(c => cancel = c)
